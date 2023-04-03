@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
+  
  }
 
 
@@ -32,7 +33,7 @@
    --surface-color-hover: rgba(255, 255, 255, 0.1);
    --highlight-color: rgba(0,0,0, 0.1);
    --switch-bg-url: url(./assets/sun.svg);
-   --bgpic-color: rgba(79,77,88,255);
+   
  }
 
  .dark{
@@ -45,11 +46,10 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
    --highlight-color: rgba(255,255,255, 0.2);
    --switch-bg-url: url(./assets/moonStars.svg);
-   --bgpic-color: linear-gradient(90deg,#FF00B8 0%, #121214 50.52%, #32C0FD 100%);
+   
 
 
-   /* --bottomcolor: #4b134f;
-  --topcolor: #c94b4b; */
+  
  }
 
 body{
@@ -80,9 +80,10 @@ color: var(--text-color);
 }
 
 #profile img{
-  width: 12vw;
+  width: 30%;
    border-radius: 100%;
-  border:2px solid var(--bgpic-color);
+  border:2px solid var(--highlight-color);
+  
    
    
 }
@@ -217,8 +218,17 @@ border: 0.094rem solid var(--text-color);
   text-decoration:none;
  }
 
- /* SEGUNDA PÁGINA */
+ @media (max-width: 480px){
+  #container{
+    height: 100vh;
+  }
+   img{
+    width: 60vw;
+  }
+ 
+ }
 
  
+
 
  
