@@ -114,11 +114,14 @@ left: 0;
 z-index:1;
 transform: translateY(-50%); 
 
-animation: slide-back .4s forwards;
+animation: slide-back .4s;
 }
 .dark #switch button{
    animation: slide-in .4s forwards;
 
+}
+#switch button:hover{
+  outline: 8px solid var(--highlight-color);
 }
 #switch span{
   display: block;
