@@ -14,3 +14,10 @@ img.setAttribute('alt', 'Darllington de blusa azul, olhando para a tela do celul
   }
 }
 
+function show(){
+alert("Ainda em manutenção ⚠️")
+   document.getElementById('curriculum').style.display = "none";
+
+
+
+}

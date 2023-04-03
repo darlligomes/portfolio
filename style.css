@@ -3,9 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
-   
-  
  }
+
 
  @keyframes slide-in {
   from {
@@ -22,9 +21,6 @@
     left: 0%;
   }
 }
-
- 
- 
 
  :root{
   --text-color: white;
@@ -71,11 +67,11 @@ color: var(--text-color);
 }
 #container{
   width: 100%;
-   margin: 1.9% 0 0 0;
+  margin: 1.9% 0 0 0;
   padding: 0% 2.2rem; 
-  display:grid;
- place-content: center; 
-                                
+  display: grid;
+  place-content: center;
+       
 }
 
 #profile {
@@ -85,8 +81,9 @@ color: var(--text-color);
 
 #profile img{
   width: 12vw;
-  border-radius: 100%;
+   border-radius: 100%;
   border:2px solid var(--bgpic-color);
+   
    
 }
 
@@ -146,6 +143,7 @@ ul li {
 }
 
 ul li a{
+  font-size: 0.8rem;
   margin: 0.8% 0 0 0;
   display: flex;
 justify-content: center;
@@ -164,7 +162,6 @@ align-items:center;
 
   font-weight: 500;
   text-decoration:none;
-  font-size: 0.8rem;
 
   transition: background 0.4s;
  }
@@ -215,7 +212,10 @@ border: 0.094rem solid var(--text-color);
 
  footer a{
   text-decoration:none;
-  
  }
+
+ /* SEGUNDA PÁGINA */
+
+ 
 
  
