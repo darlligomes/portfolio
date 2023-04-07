@@ -1,3 +1,2 @@
-<h1 align="center"> DevLinks </h1>
-
-<p align="center"> 
+<h1> Portfólio </h1>
+<p> Montado com base nos estudos de curso da DevLinks, da Rocketseat. </p>
