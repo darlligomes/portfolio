@@ -12,12 +12,8 @@ html.setAttribute('class', 'light')
 img.setAttribute('src', './assets/profileDarkCrop.png')
 img.setAttribute('alt', 'Darllington de blusa azul, olhando para a tela do celular')
   }
-}
-
-function show(){
-alert("Ainda em manutenção ⚠️")
-   document.getElementById('curriculum').style.display = "none";
-
-
+ 
 
 }
+
+

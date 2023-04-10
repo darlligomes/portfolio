@@ -111,6 +111,7 @@ animation: slide-back .4s;
 }
 
 .dark #switch button{
+ 
   animation: slide-in .4s forwards;
 }
 
